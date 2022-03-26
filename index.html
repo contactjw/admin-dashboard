@@ -13,11 +13,10 @@
 <body>
 
 <div class="container">
-
     <!--sidebar start-->
 
     <div class="side-bar">
-        <div class="nav-heading">
+        <div class="nav-heading clickable">
             <img class="dash-image" src="./icons/view-dashboard.png" alt="dashboard icon">Dashboard</div>
         <div class="nav-bar">
             <ul class="nav-list nav-styles">
@@ -46,33 +45,33 @@
     <div class="header">
         <div class="top-header">
             <div class="search-bar">
-                <div class="search-img">
-                    <img class="search-icon" src="./icons/magnify.svg" alt="search icon" >
+                <div class="search-img clickable">
+                   <input type="image" class="search-icon" form="myform" src="./icons/magnify.svg">
                 </div>
                 <!-- make it an input matching the form -->
-                <form action="#">
+                <form id="myform" method="get" action="#">
                     <input class="search-input" type="text" id="searchresult" name="searchresult" value=""><br><br>
-                  </form>
+                </form>
             </div>
             <div class="profile-bar">
-                <div><img class="bell-icon" src="./icons/bell-ring-outline.svg" alt="notification icon"></div>
-                <div><img class="profile-pic-small" src="./icons/Screen Shot 2022-03-25 at 9.31.52 AM.png" alt="profile picture"></div>
-                <div>John West</div>
+                <div class="clickable"><img class="bell-icon" src="./icons/bell-ring-outline.svg" alt="notification icon"></div>
+                <div class="clickable"><img class="profile-pic-small" src="./icons/Screen Shot 2022-03-25 at 9.31.52 AM.png" alt="profile picture"></div>
+                <div class="clickable">John West</div>
             </div>
         </div>
 
         <div class="bottom-header">
             <div class="profile-display">
-                <div><img class="profile-pic-large" src="./icons/Screen Shot 2022-03-25 at 9.31.52 AM.png" alt="profile picture"></div>
+                <div class="clickable"><img class="profile-pic-large" src="./icons/Screen Shot 2022-03-25 at 9.31.52 AM.png" alt="profile picture"></div>
                 <div class="name-greeting">
                     <div class="greeting">Hi there,</div>
                     <div class="name">John West (@johnwest)</div>
                 </div>
             </div>
             <div class="make-post">
-                <button class="head-button">New</button>
-                <button class="head-button">Upload</button>
-                <button class="head-button">Share</button>
+                <button class="head-button clickable">New</button>
+                <button class="head-button clickable">Upload</button>
+                <button class="head-button clickable">Share</button>
             </div>
         </div>
 
