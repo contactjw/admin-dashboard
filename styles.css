@@ -347,6 +347,14 @@ hr {
         grid-column: 2/3;
         grid-row: 2/3;
     }
+
+    .main {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: 320px 320px 400px;
+        padding: 30px 20px 40px 20px;
+        max-height: 100%;
+    }
     
 }
 
